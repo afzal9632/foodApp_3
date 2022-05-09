@@ -1,0 +1,39 @@
+#navbar{
+    border:3px solid;
+    height:50px;
+    width:90%;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    justify-content: end;
+}
+#navbar>div{
+    display: flex;
+    height: 100%;
+    width: 30%;
+ 
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar>div>a{
+ font-size: larger;
+    font-weight:bolder;
+    text-decoration: none;
+    color: rgb(17, 16, 16);
+}
+#search_bar{
+    width: 80%;
+  
+   height: 30px;
+    border-radius: 10px;
+     margin: 20px auto;
+    
+}
+#search_bar>input{
+    width: 40%;
+    height: 80%;
+    outline: 1px solid grey;
+    border-radius: 20px;
+    border: 2px solid teal;
+    font-size: medium;
+}
